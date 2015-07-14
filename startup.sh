@@ -1,1 +1,1 @@
-/opt/dev/activepython343/bin/python3 apps.py
+/opt/dev/activepaythom3/bin/python3 apps.py
