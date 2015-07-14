@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block body %}
+<div class="relative">
+
+
+  <div class="left w50">
+     {% for entry in records %}
+        {{ entry.content }}
+      {% end %}
+  </div>
+    {% if not current_user %}
+      <div class="right w40">
+
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">记录您的重要事项</h3>
+          </div>
+          <div class="panel-body">
+           <form action="/auth/login" method="POST">
+            <p>
+            邮箱: <input name="name" type="text"></p>
+            <p>
+              密码: <input name="password" type="password">
+            </p>
+              {% module xsrf_form_html() %}
+            <p>  <input type="submit" value="登录"></p>
+          </form>
+          </div>
+       </div>
+
+
+
+       <div class="panel panel-success">
+          <div class="panel-heading">
+            <h3 class="panel-title">快来注册吧</h3>
+          </div>
+          <div class="panel-body">
+
+        <form id="regform" action="/user/create" method="POST">
+
+          <p>
+            邮箱: <input name="email" type="text">
+          </p>
+          <p>
+          姓名: <input name="name" type="text"></p>
+          <p>
+          密码: <input name="password" type="password"></p>
+          {% module xsrf_form_html() %}
+          <input type="button" value="注册" class="j-reg">
+        </form>
+        <script src="{{ static_url("js/user.js") }}"></script>
+        </div>
+
+
+  </div>
+  {% end %}
+</div>
+  <div><a href="/archive">{{ _("Archive") }}</a></div>
+{% end %}

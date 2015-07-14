@@ -1,0 +1,27 @@
+.relative {
+    position: relative;
+}
+.relative:after ,.relative:before {
+    content: "";
+    display: table;
+    clear: both;
+}
+.absolute {
+    position: absolute;
+}
+.left {
+    float:left;
+}
+.right {
+    float:right;
+}
+.clear {
+    clear:both;
+}
+
+.w50{
+    width: 50%
+}
+.w40{
+    width: 40%
+}
