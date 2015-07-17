@@ -120,10 +120,14 @@ class ComposeHandler(BaseHandler):
 
     @tornado.web.authenticated
     def post(self):
+
         id = self.get_argument("id", None)
         title = self.get_argument("title")
-        text = self.get_argument("markdown")
+        text = self.get_argument("markdown",strip=False)
+        print(text)
+
         html = markdown.markdown(text)
+
         if id:
             entry = self.db.get("SELECT * FROM entries WHERE id = %s", (id,))
             if not entry: raise tornado.web.HTTPError(404)
