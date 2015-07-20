@@ -275,7 +275,7 @@ class MyNotesCreateHandler(BaseHandler):
             if not entry: raise tornado.web.HTTPError(404)
             slug = entry.slug
             self.db.execute(
-                "UPDATE record SET title = %s, markdown = %s, html = %s , update=now()"
+                "UPDATE record SET title = %s, markdown = %s, html = %s , update=now() "
                 "WHERE id = %s", (title, text, html, id))
         else:
             slug = unicodedata.normalize("NFKD", title).encode(

@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="apps.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="128" column="22" selection-start-line="128" selection-start-column="22" selection-end-line="128" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.14084508">
+              <caret line="153" column="31" selection-start-line="152" selection-start-column="16" selection-end-line="153" selection-end-column="31" />
               <folding>
                 <element signature="e#619#644#0" expanded="true" />
               </folding>
@@ -73,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="blog.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/blog.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.6463416">
-              <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
+            <state vertical-scroll-proportion="-1.8214285">
+              <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -163,9 +163,9 @@
         <option value="$PROJECT_DIR$/templates/mynotes/compose.html" />
         <option value="$PROJECT_DIR$/static/js/mynotes.js" />
         <option value="$PROJECT_DIR$/templates/mynotes/archive.html" />
-        <option value="$PROJECT_DIR$/apps.py" />
         <option value="$PROJECT_DIR$/templates/my_notes.html" />
         <option value="$PROJECT_DIR$/static/blog.css" />
+        <option value="$PROJECT_DIR$/apps.py" />
       </list>
     </option>
   </component>
@@ -1030,16 +1030,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="128" column="22" selection-start-line="128" selection-start-column="22" selection-end-line="128" selection-end-column="22" />
-          <folding>
-            <element signature="e#619#644#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.285714">
@@ -1066,9 +1056,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/blog.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.6463416">
-          <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
+        <state vertical-scroll-proportion="-1.8214285">
+          <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14084508">
+          <caret line="153" column="31" selection-start-line="152" selection-start-column="16" selection-end-line="153" selection-end-column="31" />
+          <folding>
+            <element signature="e#619#644#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
