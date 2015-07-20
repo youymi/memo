@@ -114,8 +114,8 @@ class ArchiveHandler(BaseHandler):
 class RecordArchiveHandler(BaseHandler):
     @tornado.web.authenticated
     def get(self):
-        entries = self.db.query("SELECT * FROM record ORDER BY date "
-                                "DESC")
+        entries = self.db.query("SELECT * FROM record  where user_id=%s order by `date` "
+                                "desc ",(self.current_user.id,))
         self.render("mynotes/archive.html", entries=entries,activeid="noteList")
 
 class FeedHandler(BaseHandler):

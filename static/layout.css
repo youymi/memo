@@ -18,7 +18,9 @@
 .clear {
     clear:both;
 }
-
+.block {
+    display:block;
+}
 .w50{
     width: 50%
 }
