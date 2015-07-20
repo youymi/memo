@@ -149,8 +149,8 @@ class ComposeHandler(BaseHandler):
             entry = self.db.get("SELECT * FROM entries WHERE id = %s", (id,))
             if not entry: raise tornado.web.HTTPError(404)
             slug = entry.slug
-            self.db.execute(
-                3, (title, text, html, int(id)))
+            self.db.execute(  "UPDATE entries SET title = %s, markdown = %s, html = %s "
+                "WHERE id = %s", (title, text, html, int(id)))
         else:
             slug = unicodedata.normalize("NFKD", title).encode(
                 "ascii", "ignore")
