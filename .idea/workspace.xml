@@ -24,8 +24,8 @@
       <file leaf-file-name="apps.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14084508">
-              <caret line="153" column="31" selection-start-line="152" selection-start-column="16" selection-end-line="153" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.2555332">
+              <caret line="276" column="82" selection-start-line="276" selection-start-column="82" selection-end-line="276" selection-end-column="82" />
               <folding>
                 <element signature="e#619#644#0" expanded="true" />
               </folding>
@@ -645,12 +645,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/apps.py</url>
-          <line>218</line>
+          <line>217</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/apps.py</url>
-          <line>226</line>
+          <line>225</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
@@ -1064,8 +1064,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14084508">
-          <caret line="153" column="31" selection-start-line="152" selection-start-column="16" selection-end-line="153" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.2555332">
+          <caret line="276" column="82" selection-start-line="276" selection-start-column="82" selection-end-line="276" selection-end-column="82" />
           <folding>
             <element signature="e#619#644#0" expanded="true" />
           </folding>
