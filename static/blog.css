@@ -94,6 +94,7 @@ a code {
 #content {
   margin-left: 10px;
   margin-right: 10px;
+  min-height:600px;
 }
 
 #footer {
@@ -139,7 +140,7 @@ a code {
 }
 
 .compose .title {
-  font-size: 20pt;
+  font-size: 18pt;
 }
 
 .compose .title,
@@ -148,7 +149,7 @@ a code {
 }
 
 .compose .markdown {
-  height: 500px;
+  height: 400px;
   line-height: 16pt;
 }
 
