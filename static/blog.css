@@ -158,3 +158,8 @@ a code {
   border: 1px solid gray;
   padding: 5px;
 }
+
+#compose-list {
+  right:5px;
+  bottom:2px;
+}

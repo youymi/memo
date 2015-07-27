@@ -4,13 +4,13 @@
 <div class="relative">
 
 
-  <div class="left w50">
+  <div class="left w65 ">
      {% for entry in entries %}
     {% module Entry(entry) %}
   {% end %}
   </div>
     {% if not current_user %}
-      <div class="right w40">
+      <div class="right w30">
 
         <div class="panel panel-primary">
           <div class="panel-heading">
@@ -56,5 +56,5 @@
   </div>
   {% end %}
 </div>
-  <div><a href="/archive">{{ _("Archive") }}</a></div>
+
 {% end %}

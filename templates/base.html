@@ -28,7 +28,7 @@
   </head>
   <body>
     <div id="body">
-      <div id="header">
+      <div id="header" class="relative">
         <div style="float:right">
           {% if current_user %}
             <!--<a href="/compose">{{ _("发布公共事项") }}</a>-->
@@ -39,6 +39,7 @@
             {% raw _('<a href="%(url)s">Sign in</a> to compose/edit') % {"url": "/auth/login?next=" + url_escape(request.uri)} %}
           {% end %}
         </div>
+        <div id="compose-list" class="absolute "><a href="/archive">content list</a></div>
         <h1><a href="/">{{ escape(handler.settings["blog_title"]) }}</a></h1>
       </div>
       <div id="content">{% block body %}{% end %}</div>
