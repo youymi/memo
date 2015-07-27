@@ -34,7 +34,7 @@
             <!--<a href="/compose">{{ _("发布公共事项") }}</a>-->
           <a href="/my/notes">{{ _("我的备忘录") }}</a>
           - {{ current_user.name }}
-            <a href="/auth/logout?next={{ url_escape(request.uri) }}">{{ _("登出") }}</a>
+            <a href="/auth/logout?next={{ url_escape(request.uri) }}">{{ _("退出") }}</a>
           {% else %}
             {% raw _('<a href="%(url)s">Sign in</a> to compose/edit') % {"url": "/auth/login?next=" + url_escape(request.uri)} %}
           {% end %}
