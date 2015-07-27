@@ -229,7 +229,6 @@ class AuthLoginHandler(BaseHandler):
         else:
             self.render("login.html", error="密码不对哦！")
 
-
 class AuthLogoutHandler(BaseHandler):
     def get(self):
         self.clear_cookie("token")
@@ -239,7 +238,7 @@ class MyNotesHadler(BaseHandler):
     @tornado.web.authenticated
     def get(self):
         user_id = self.current_user.id
-        records = self.db.query("select * from record where user_id = %s limit 10", (user_id,))
+        records = self.db.query("select * from record where user_id = %s order by date desc limit 10", (user_id,))
         self.render("my_notes.html",records = records, activeid=None)
 
 class MyNotesCreateHandler(BaseHandler):
