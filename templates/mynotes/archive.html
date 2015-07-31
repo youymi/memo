@@ -26,7 +26,7 @@
  <ul class="archive">
     {% for entry in entries %}
       <li>
-        <div class="title"><a href="/entry/{{ entry.slug }}">{{ entry.title }}</a></div>
+        <div class="title"><a href="/my/notes/entry/{{ entry.slug }}">{{ entry.title }}</a></div>
         <div class="date">{{ locale.format_date(entry.date, full_format=True, shorter=True) }}</div>
       </li>
     {% end %}
