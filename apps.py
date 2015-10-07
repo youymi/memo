@@ -63,7 +63,7 @@ class Application(tornado.web.Application):
             (r"/my/notes/compose",MyNotesCreateHandler),
         ]
         settings = dict(
-            blog_title=u"youymi.com, 个人备忘录",
+            blog_title=u"youymi.com",
             template_path=os.path.join(os.path.dirname(__file__), "templates"),
             static_path=os.path.join(os.path.dirname(__file__), "static"),
             ui_modules={"Entry": EntryModule, "Record": RecordEntryModule},
